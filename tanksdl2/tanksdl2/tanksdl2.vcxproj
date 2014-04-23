@@ -39,8 +39,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\Максим\Documents\Projects\tanksdl2\tanksdl2\SDL2_mixer-devel-2.0.0-VC\SDL2_mixer-2.0.0\include;C:\Users\Максим\Documents\Projects\tanksdl2\tanksdl2\SDL2_image-devel-2.0.0-VC\SDL2_image-2.0.0\include;C:\Users\Максим\Documents\Projects\tanksdl2\tanksdl2\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Максим\Documents\Projects\tanksdl2\tanksdl2\SDL2_mixer-devel-2.0.0-VC\SDL2_mixer-2.0.0\lib\x86;C:\Users\Максим\Documents\Projects\tanksdl2\tanksdl2\SDL2_image-devel-2.0.0-VC\SDL2_image-2.0.0\lib\x86;C:\Users\Максим\Documents\Projects\tanksdl2\tanksdl2\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Максим\Documents\Projects\tanksdl2\tanksdl2\SDL2_mixer-devel-2.0.0-VC\SDL2_mixer-2.0.0\include;C:\Users\Максим\Documents\Projects\tanksdl2\tanksdl2\SDL2_image-devel-2.0.0-VC\SDL2_image-2.0.0\include;C:\Users\Максим\Documents\Projects\tanksdl2\tanksdl2\include;C:\Users\Andrew\Documents\GitHub\tanks2sdl\tanksdl2\tanksdl2\SDL2_mixer-devel-2.0.0-VC\SDL2_mixer-2.0.0\include;C:\Users\Andrew\Documents\GitHub\tanks2sdl\tanksdl2\tanksdl2\SDL2_image-devel-2.0.0-VC\SDL2_image-2.0.0\include;C:\Users\Andrew\Documents\GitHub\tanks2sdl\tanksdl2\tanksdl2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Andrew\Documents\GitHub\tanks2sdl\tanksdl2\tanksdl2\SDL2_mixer-devel-2.0.0-VC\SDL2_mixer-2.0.0\lib\x86;C:\Users\Andrew\Documents\GitHub\tanks2sdl\tanksdl2\tanksdl2\SDL2_image-devel-2.0.0-VC\SDL2_image-2.0.0\lib\x86;C:\Users\Andrew\Documents\GitHub\tanks2sdl\tanksdl2\tanksdl2\lib\x86;C:\Users\Максим\Documents\Projects\tanksdl2\tanksdl2\SDL2_mixer-devel-2.0.0-VC\SDL2_mixer-2.0.0\lib\x86;C:\Users\Максим\Documents\Projects\tanksdl2\tanksdl2\SDL2_image-devel-2.0.0-VC\SDL2_image-2.0.0\lib\x86;C:\Users\Максим\Documents\Projects\tanksdl2\tanksdl2\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

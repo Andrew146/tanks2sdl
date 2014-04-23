@@ -1,10 +1,19 @@
-﻿Построение начато 17.04.2014 13:05:23.
-     1>Проект "C:\Users\Максим\Documents\Projects\tanksdl2\tanksdl2\tanksdl2.vcxproj" в узле 2 (целевые объекты Build).
+﻿Построение начато 19.04.2014 3:41:23.
+     1>Проект "C:\Users\Andrew\Documents\GitHub\tanks2sdl\tanksdl2\tanksdl2\tanksdl2.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt bullets.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt bottanks.cpp bullets.cpp hero.cpp main.cpp tanks.cpp
+         main.cpp
+     1>c:\users\andrew\documents\github\tanks2sdl\tanksdl2\tanksdl2\main.cpp(21): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>c:\users\andrew\documents\github\tanks2sdl\tanksdl2\tanksdl2\main.cpp(19): warning C4100: args: неиспользованный формальный параметр
+     1>c:\users\andrew\documents\github\tanks2sdl\tanksdl2\tanksdl2\main.cpp(19): warning C4100: argc: неиспользованный формальный параметр
          bullets.cpp
+         Создание кода...
+         Пропуск... (изменения не обнаружены)
+         tanks.cpp
+         hero.cpp
+         bottanks.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Максим\Documents\Projects\tanksdl2\Debug\tanksdl2.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2test.lib SDL2_image.lib SDL2_mixer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Максим\Documents\Projects\tanksdl2\Debug\tanksdl2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Максим\Documents\Projects\tanksdl2\Debug\tanksdl2.lib" /MACHINE:X86 Debug\bottanks.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Andrew\Documents\GitHub\tanks2sdl\tanksdl2\Debug\tanksdl2.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2test.lib SDL2_image.lib SDL2_mixer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Andrew\Documents\GitHub\tanks2sdl\tanksdl2\Debug\tanksdl2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Andrew\Documents\GitHub\tanks2sdl\tanksdl2\Debug\tanksdl2.lib" /MACHINE:X86 Debug\bottanks.obj
          Debug\bullets.obj
          Debug\Graphics.obj
          Debug\hero.obj
@@ -12,9 +21,9 @@
          Debug\Objects.obj
          Debug\StaticTextures.obj
          Debug\tanks.obj
-         tanksdl2.vcxproj -> C:\Users\Максим\Documents\Projects\tanksdl2\Debug\tanksdl2.exe
-     1>Построение проекта "C:\Users\Максим\Documents\Projects\tanksdl2\tanksdl2\tanksdl2.vcxproj" завершено (целевые объекты Build).
+         tanksdl2.vcxproj -> C:\Users\Andrew\Documents\GitHub\tanks2sdl\tanksdl2\Debug\tanksdl2.exe
+     1>Построение проекта "C:\Users\Andrew\Documents\GitHub\tanks2sdl\tanksdl2\tanksdl2\tanksdl2.vcxproj" завершено (целевые объекты Build).
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:02.17
+Затраченное время: 00:00:12.79

@@ -2,7 +2,7 @@
 #include "Project.h" //инициализирует СДЛ
 class Graphics
 {
-	public:
+public:
 	SDL_Window *win;
 	//SDL_Renderer *ren;
 	SDL_DisplayMode displayMode;

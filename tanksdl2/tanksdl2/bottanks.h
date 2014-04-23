@@ -5,7 +5,7 @@ class bottanks :
 {
 
 protected:
-	
+
 	void randmove(); //тестовая функция движения и ведения огня
 public:
 	void Draw();

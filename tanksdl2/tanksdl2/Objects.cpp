@@ -2,8 +2,7 @@
 
 
 Objects::Objects(SDL_Texture* _Texture,int _h,int _w, int _x, int _y, char _whos)
-	:
-	Texture(_Texture), whos(_whos)
+	:Texture(_Texture), whos(_whos)
 {
 	Rect.h=_h;
 	Rect.w=_w;
@@ -22,5 +21,6 @@ Objects::~Objects(void)
 
 bool Objects::am_i_dead()
 {
-	
-return true;}
+
+	return true;
+}

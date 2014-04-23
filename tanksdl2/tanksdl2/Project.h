@@ -8,16 +8,17 @@
 #include <time.h>
 #include <cmath>
 #include "SDL_thread.h"
-const int tank_H=591/8;
-const int tank_W=260/8;
+const int tank_H=32;
+const int tank_W=32;
 
-const int text_H=tank_H/2;
-const int text_W=tank_H/2;
+const int text_H=tank_H;
+const int text_W=tank_H;
 
 const int X_disp=1000;
 const int Y_disp=650;
-const int bullet_H=25;
+const int bullet_H=12;
 const int bullet_W=4;
+const int SPEED_BULLETS = 15;
 const double rad=57.295779513;
 
 using namespace std;
